@@ -1,7 +1,25 @@
 import '../styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.css';
+import '../styles/patient.css'
+import { AuthProvider } from '../context/AuthContext';
+import Router from 'next/router'
+import {useState} from 'react'
+import NProgress from 'nprogress'
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  const [loading,setloading] = useState(false)
+  Router.events.on(`routeChangeStart`,(url)=>{
+    NProgress.start();
+  })
+
+  Router.events.on(`routeChangeComplete`,(url)=>{
+    NProgress.done();
+  })
+  return( 
+    <AuthProvider>
+        <Component {...pageProps} />
+    </AuthProvider>
+  )
 }
 
 export default MyApp

@@ -1,0 +1,83 @@
+.Doctor{
+	color: white;
+	background-color:#4d79ff;
+	height: 100px;
+	border:1px solid #4d79ff;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.Doctor:hover{
+	background-color:#0039e6 ;
+}
+
+
+.Reception{
+	color: white;
+	background-color:#00cc00;
+	height: 100px;
+	border:1px solid #00cc00;
+	border-radius: 10px;
+	margin:20px;
+	
+}
+
+.Reception:hover{
+	background-color:#009900 ;
+}
+
+.Pharmacy{
+	color: white;
+	background-color:#e600e6;
+	height: 100px;
+	border:1px solid #e600e6;
+	border-radius: 10px;
+	margin:20px ;
+	
+}
+
+.Pharmacy:hover{
+	background-color:#990099;
+}
+
+.Laboratory{
+	color: white;
+	background-color:#d55d5d;
+	height: 100px;
+	border:1px solid #d55d5d;
+	border-radius: 10px;
+	margin:20px ;
+	
+}
+
+.Laboratory:hover{
+	background-color:#8e2525;
+}
+
+.Radiology{
+	color: white;
+	background-color:#ffaf1a;
+	height: 100px;
+	border:1px solid #ffaf1a;
+	border-radius: 10px;
+	margin:20px ;
+	
+}
+
+.Radiology:hover{
+	background-color:#b37400 ;
+}
+
+.Cashier{
+	color: white;
+	background-color:#ff4d4d;
+	height: 100px;
+	border:1px solid #ff4d4d;
+	border-radius: 10px;
+	margin:20px ;
+	
+}
+
+.Cashier:hover{
+	background-color:#b30000 ;
+}
